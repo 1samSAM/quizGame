@@ -38,3 +38,7 @@ else:
 
 print("You got " + str(score) + " questions correct!")
 print("You got " + str((score / 4) * 100) + "%.")
+if score >= 2:
+    print("your are pass")
+else:
+    print("your are failed")
